@@ -50,7 +50,6 @@ function Player() {
             fetchCurrentSong();
             setVolume(50);
         }
-
     }, [currentTrackId, spotifyApi, session]);
 
     useEffect(() => {
